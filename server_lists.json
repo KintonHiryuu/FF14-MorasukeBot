@@ -1,0 +1,452 @@
+{
+    "Aether": {
+        "Jenova": {
+            "id": 40,
+            "name": "Jenova"
+        },
+        "Faerie": {
+            "id": 54,
+            "name": "Faerie"
+        },
+        "Siren": {
+            "id": 57,
+            "name": "Siren"
+        },
+        "Gilgamesh": {
+            "id": 63,
+            "name": "Gilgamesh"
+        },
+        "Midgardsormr": {
+            "id": 65,
+            "name": "Midgardsormr"
+        },
+        "Adamantoise": {
+            "id": 73,
+            "name": "Adamantoise"
+        },
+        "Cactuar": {
+            "id": 79,
+            "name": "Cactuar"
+        },
+        "Sargatanas": {
+            "id": 99,
+            "name": "Sargatanas"
+        }
+    },
+    "Chaos": {
+        "Omega": {
+            "id": 39,
+            "name": "Omega"
+        },
+        "Moogle": {
+            "id": 71,
+            "name": "Moogle"
+        },
+        "Cerberus": {
+            "id": 80,
+            "name": "Cerberus"
+        },
+        "Louisoix": {
+            "id": 83,
+            "name": "Louisoix"
+        },
+        "Spriggan": {
+            "id": 85,
+            "name": "Spriggan"
+        },
+        "Ragnarok": {
+            "id": 97,
+            "name": "Ragnarok"
+        },
+        "Sagittarius": {
+            "id": 400,
+            "name": "Sagittarius"
+        },
+        "Phantom": {
+            "id": 401,
+            "name": "Phantom"
+        }
+    },
+    "Crystal": {
+        "Brynhildr": {
+            "id": 34,
+            "name": "Brynhildr"
+        },
+        "Mateus": {
+            "id": 37,
+            "name": "Mateus"
+        },
+        "Zalera": {
+            "id": 41,
+            "name": "Zalera"
+        },
+        "Diabolos": {
+            "id": 62,
+            "name": "Diabolos"
+        },
+        "Coeurl": {
+            "id": 74,
+            "name": "Coeurl"
+        },
+        "Malboro": {
+            "id": 75,
+            "name": "Malboro"
+        },
+        "Goblin": {
+            "id": 81,
+            "name": "Goblin"
+        },
+        "Balmung": {
+            "id": 91,
+            "name": "Balmung"
+        }
+    },
+    "Dynamis": {
+        "Marilith": {
+            "id": 404,
+            "name": "Marilith"
+        },
+        "Seraph": {
+            "id": 405,
+            "name": "Seraph"
+        },
+        "Halicarnassus": {
+            "id": 406,
+            "name": "Halicarnassus"
+        },
+        "Maduin": {
+            "id": 407,
+            "name": "Maduin"
+        },
+        "Cuchulainn": {
+            "id": 408,
+            "name": "Cuchulainn"
+        },
+        "Kraken": {
+            "id": 409,
+            "name": "Kraken"
+        },
+        "Rafflesia": {
+            "id": 410,
+            "name": "Rafflesia"
+        },
+        "Golem": {
+            "id": 411,
+            "name": "Golem"
+        }
+    },
+    "Elemental": {
+        "Carbuncle": {
+            "id": 45,
+            "name": "Carbuncle"
+        },
+        "Kujata": {
+            "id": 49,
+            "name": "Kujata"
+        },
+        "Typhon": {
+            "id": 50,
+            "name": "Typhon"
+        },
+        "Garuda": {
+            "id": 58,
+            "name": "Garuda"
+        },
+        "Atomos": {
+            "id": 68,
+            "name": "Atomos"
+        },
+        "Tonberry": {
+            "id": 72,
+            "name": "Tonberry"
+        },
+        "Aegis": {
+            "id": 90,
+            "name": "Aegis"
+        },
+        "Gungnir": {
+            "id": 94,
+            "name": "Gungnir"
+        }
+    },
+    "Gaia": {
+        "Alexander": {
+            "id": 43,
+            "name": "Alexander"
+        },
+        "Fenrir": {
+            "id": 46,
+            "name": "Fenrir"
+        },
+        "Ultima": {
+            "id": 51,
+            "name": "Ultima"
+        },
+        "Ifrit": {
+            "id": 59,
+            "name": "Ifrit"
+        },
+        "Bahamut": {
+            "id": 69,
+            "name": "Bahamut"
+        },
+        "Tiamat": {
+            "id": 76,
+            "name": "Tiamat"
+        },
+        "Durandal": {
+            "id": 92,
+            "name": "Durandal"
+        },
+        "Ridill": {
+            "id": 98,
+            "name": "Ridill"
+        }
+    },
+    "Light": {
+        "Lich": {
+            "id": 36,
+            "name": "Lich"
+        },
+        "Odin": {
+            "id": 66,
+            "name": "Odin"
+        },
+        "Phoenix": {
+            "id": 56,
+            "name": "Phoenix"
+        },
+        "Shiva": {
+            "id": 67,
+            "name": "Shiva"
+        },
+        "Twintania": {
+            "id": 33,
+            "name": "Twintania"
+        },
+        "Zodiark": {
+            "id": 42,
+            "name": "Zodiark"
+        },
+        "Alpha": {
+            "id": 402,
+            "name": "Alpha"
+        },
+        "Raiden": {
+            "id": 403,
+            "name": "Raiden"
+        }
+    },
+    "Materia": {
+        "Ravana": {
+            "id": 21,
+            "name": "Ravana"
+        },
+        "Bismarck": {
+            "id": 22,
+            "name": "Bismarck"
+        },
+        "Sephirot": {
+            "id": 86,
+            "name": "Sephirot"
+        },
+        "Sophia": {
+            "id": 87,
+            "name": "Sophia"
+        },
+        "Zurvan": {
+            "id": 88,
+            "name": "Zurvan"
+        }
+    },
+    "Mana": {
+        "Asura": {
+            "id": 23,
+            "name": "Asura"
+        },
+        "Pandaemonium": {
+            "id": 28,
+            "name": "Pandaemonium"
+        },
+        "Anima": {
+            "id": 44,
+            "name": "Anima"
+        },
+        "Hades": {
+            "id": 47,
+            "name": "Hades"
+        },
+        "Ixion": {
+            "id": 48,
+            "name": "Ixion"
+        },
+        "Titan": {
+            "id": 61,
+            "name": "Titan"
+        },
+        "Chocobo": {
+            "id": 70,
+            "name": "Chocobo"
+        },
+        "Masamune": {
+            "id": 96,
+            "name": "Masamune"
+        }
+    },
+    "Meteor": {
+        "Belias": {
+            "id": 24,
+            "name": "Belias"
+        },
+        "Shinryu": {
+            "id": 29,
+            "name": "Shinryu"
+        },
+        "Unicorn": {
+            "id": 30,
+            "name": "Unicorn"
+        },
+        "Yojimbo": {
+            "id": 31,
+            "name": "Yojimbo"
+        },
+        "Zeromus": {
+            "id": 32,
+            "name": "Zeromus"
+        },
+        "Valefor": {
+            "id": 52,
+            "name": "Valefor"
+        },
+        "Ramuh": {
+            "id": 60,
+            "name": "Ramuh"
+        },
+        "Mandragora": {
+            "id": 82,
+            "name": "Mandragora"
+        }
+    },
+    "Primal": {
+        "Famfrit": {
+            "id": 35,
+            "name": "Famfrit"
+        },
+        "Exodus": {
+            "id": 53,
+            "name": "Exodus"
+        },
+        "Lamia": {
+            "id": 55,
+            "name": "Lamia"
+        },
+        "Leviathan": {
+            "id": 64,
+            "name": "Leviathan"
+        },
+        "Ultros": {
+            "id": 77,
+            "name": "Ultros"
+        },
+        "Behemoth": {
+            "id": 78,
+            "name": "Behemoth"
+        },
+        "Excalibur": {
+            "id": 93,
+            "name": "Excalibur"
+        },
+        "Hyperion": {
+            "id": 95,
+            "name": "Hyperion"
+        }
+    },
+    "Shadow": {},
+    "list": [
+        "Jenova",
+        "Faerie",
+        "Siren",
+        "Gilgamesh",
+        "Midgardsormr",
+        "Adamantoise",
+        "Cactuar",
+        "Sargatanas",
+        "Omega",
+        "Moogle",
+        "Cerberus",
+        "Louisoix",
+        "Spriggan",
+        "Ragnarok",
+        "Sagittarius",
+        "Phantom",
+        "Brynhildr",
+        "Mateus",
+        "Zalera",
+        "Diabolos",
+        "Coeurl",
+        "Malboro",
+        "Goblin",
+        "Balmung",
+        "Marilith",
+        "Seraph",
+        "Halicarnassus",
+        "Maduin",
+        "Cuchulainn",
+        "Kraken",
+        "Rafflesia",
+        "Golem",
+        "Carbuncle",
+        "Kujata",
+        "Typhon",
+        "Garuda",
+        "Atomos",
+        "Tonberry",
+        "Aegis",
+        "Gungnir",
+        "Alexander",
+        "Fenrir",
+        "Ultima",
+        "Ifrit",
+        "Bahamut",
+        "Tiamat",
+        "Durandal",
+        "Ridill",
+        "Lich",
+        "Odin",
+        "Phoenix",
+        "Shiva",
+        "Twintania",
+        "Zodiark",
+        "Alpha",
+        "Raiden",
+        "Ravana",
+        "Bismarck",
+        "Sephirot",
+        "Sophia",
+        "Zurvan",
+        "Asura",
+        "Pandaemonium",
+        "Anima",
+        "Hades",
+        "Ixion",
+        "Titan",
+        "Chocobo",
+        "Masamune",
+        "Belias",
+        "Shinryu",
+        "Unicorn",
+        "Yojimbo",
+        "Zeromus",
+        "Valefor",
+        "Ramuh",
+        "Mandragora",
+        "Famfrit",
+        "Exodus",
+        "Lamia",
+        "Leviathan",
+        "Ultros",
+        "Behemoth",
+        "Excalibur",
+        "Hyperion"
+    ]
+}
