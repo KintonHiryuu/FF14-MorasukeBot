@@ -125,8 +125,11 @@ schedule.scheduleJob(process.env.default_schedule, () => {
   sendData("490203196728410118", "Lich")
   sendData("490203196728410118", "Raiden")
 })
+
+discordClient.once("ready", () => {
   sendData("490203196728410118", "Lich")
   sendData("490203196728410118", "Raiden")
+})
 
 
 
