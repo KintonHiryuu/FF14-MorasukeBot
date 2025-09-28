@@ -124,13 +124,13 @@ let sendData = function (channelID = process.env.default_channel, server = proce
 }
 
 schedule.scheduleJob(process.env.default_schedule, () => {
-  sendData("490203196728410118", "Lich")
-  sendData("490203196728410118", "Raiden")
+  sendData(channelID = "490203196728410118", server = "Lich", time_period = 48, sales_amount = 20, average_price = 200, filters = [47, 49, 51], sort_by = "quantitySold", maxItem = 9)
+  sendData(channelID = "490203196728410118", server = "Raiden", time_period = 48, sales_amount = 20, average_price = 200, filters = [47, 49, 51], sort_by = "quantitySold", maxItem = 9)
 })
 
 discordClient.once("ready", () => {
-  sendData("490203196728410118", "Lich")
-  sendData("490203196728410118", "Raiden")
+  sendData(channelID = "490203196728410118", server = "Lich", time_period = 48, sales_amount = 20, average_price = 200, filters = [47, 49, 51], sort_by = "quantitySold", maxItem = 9)
+  sendData(channelID = "490203196728410118", server = "Raiden", time_period = 48, sales_amount = 20, average_price = 200, filters = [47, 49, 51], sort_by = "quantitySold", maxItem = 9)
 })
 
 
