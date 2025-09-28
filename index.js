@@ -11,7 +11,7 @@ const schedule = require("node-schedule")
  * @param {Array} filters 
  * @param {String} sort_by 
  */
-const requestData = (server = "Lich", time_period = 24, sales_amount = 40, average_price = 300, filters = [47, 49, 51], sort_by = "marketValue") => new Promise(async (resolve, reject) => {
+const requestData = (server = process.env.default_server, time_period = process.env.default_time_period, sales_amount = process.env.default_sales_amount, average_price = process.env.default_average_price, filters = process.env.default_filters, sort_by = process.env.default_sort_by) => new Promise(async (resolve, reject) => {
   if (!serverList.list.includes(server)) {
     reject({ "error": "Serveur non-existant" })
   }
@@ -40,10 +40,10 @@ discordClient.once(DISCORD.Events.ClientReady, readyClient => {
   // discordClient.channels.fetch("490203196728410118", {force:true}).then(channel => channel.bulkDelete(69))
 });
 
-discordClient.login(config.token);
+discordClient.login(process.env.DISCORD_TOKEN);
 
 
-let sendData = function (channelID = "490203196728410118", server = "Lich", time_period = 48, sales_amount = 20, average_price = 200, filters = [47, 49, 51], sort_by = "quantitySold", maxItem = 9) {
+let sendData = function (channelID = process.env.default_channel, server = process.env.default_server, time_period = process.env.default_time_period, sales_amount = process.env.default_sales_amount, average_price = process.env.default_average_price, filters = process.env.default_filters, sort_by = process.env.default_sort_by, maxItem = process.env.default_max_item) {
   let date = new Date()
   requestData(server, time_period, sales_amount, average_price, filters, sort_by).then(data => {
     data = data.data
@@ -121,7 +121,7 @@ let sendData = function (channelID = "490203196728410118", server = "Lich", time
   })
 }
 
-schedule.scheduleJob('0 7 * * *', () => {
+schedule.scheduleJob(process.env.default_schedule, () => {
   sendData("490203196728410118", "Lich")
   sendData("490203196728410118", "Raiden")
 })
