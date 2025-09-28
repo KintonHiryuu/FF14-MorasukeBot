@@ -99,7 +99,7 @@ let sendData = function (channelID = process.env.default_channel, server = proce
                 "inline": true
               }, {
                 "name": "Infos Annexes",
-                "value": `Quantitée Vendue : \`${data[item].quantitySold}\`\nNbre moyen d'objet par vente: \`${data[item].purchaseAmount}\`\nVariation du prix: \`${data[item].percentChange}\`% ${data[item].percentChange <= 0 ? "🔽" : data[item].percentChange <= 99 ? `🔼` : `⏫`}`,
+                "value": `Quantitée Vendue : \`${data[item].quantitySold}\`\nNbre de transactions: \`${data[item].purchaseAmount}\`\nVariation du prix: \`${data[item].percentChange}\`% ${data[item].percentChange <= 0 ? "🔽" : data[item].percentChange <= 99 ? `🔼` : `⏫`}`,
                 "inline": true
               }
             ],
