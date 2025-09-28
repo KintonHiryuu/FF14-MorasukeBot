@@ -64,7 +64,7 @@ let sendData = function (channelID = process.env.default_channel, server = proce
           },
           {
             "type": 10,  // ComponentType.TEXT_DISPLAY
-            "content": `Serveur sélectionné : \`${server}\` | Nombre d'items à afficher : \`${maxItem}\` (sur \`${data.length}\` reçus)`
+            "content": `Serveur sélectionné : \`${server}\` | Nombre d'items à afficher : \`${maxItem}\` (sur \`${data?.length || 0}\` reçus)`
           }
         ]
       })
