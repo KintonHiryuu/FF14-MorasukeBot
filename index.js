@@ -68,18 +68,20 @@ let sendData = function (channelID = process.env.default_channel, server = proce
           }
         ]
       })
+        
+      let footer = {
+            "text": `server ${server}, time_period ${time_period}, sales_amount ${sales_amount}, average_price ${average_price}, filters ${filters}, sort_by ${sort_by}`
+          }
+      let author = {
+            "name": `${server}`,
+            "icon_url": `https://arrstatus.com/images/${server}.webp`
+          }
       if (data) {
         for (item in data) {
           if (item == maxItem) break;
 
-          let author = {
-            "name": `${server}`,
-            "url": `${data[item].url}`,
-            "icon_url": `https://arrstatus.com/images/${server}.webp`
-          }
-          let footer = {
-            "text": `server ${server}, time_period ${time_period}, sales_amount ${sales_amount}, average_price ${average_price}, filters ${filters}, sort_by ${sort_by}`
-          }
+          
+          
           embeds.push({
             "title": `${data[item].name} - Etat : \`${data[item].state.replace("increasing", "En Augmentation").replace("spiking", "Augmentation rapide").replace("decreasing", "En Baisse").replace("stable", "Stable").replace("crashing", "Chute libre")}\``,
             "url": `${data[item].url}`,
